@@ -148,3 +148,34 @@
 
 
 /* ——————— 13th exercise ——————— */
+
+.ex-13-button:hover .ex-13-top-white{
+    animation-name: move-top;
+    animation-duration: 2.5s;
+    animation-timing-function: linear;
+}
+@keyframes move-top{
+    0%{ left:10%; top: -10px; }
+    30%{ left:80%; top: -10px; }
+    45%{ left:80%; top: 60px; }
+    75%{ left:-10%; top: 60px; }
+    90%{ left:-10%; top: -10px; }
+    100%{ left:10%; top: -10px; }
+}
+
+.ex-13-button:hover .ex-13-bottom-white{
+    animation-name: move-bottom;
+    animation-duration: 2.5s;
+    animation-timing-function: linear;
+}
+@keyframes move-bottom{
+    0%{ right:20%; bottom: -10px; }
+    30%{ right:80%; bottom: -10px; }
+    45%{ right:80%; bottom: 60px; }
+    75%{ right:-20%; bottom: 60px; }
+    90%{ right:-20%; bottom: -10px; }
+    100%{ right:20%; bottom: -10px; }
+}
+
+
+/* ———————————————————————————— ELEMENTS END ———————————————————————————— */
