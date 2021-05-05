@@ -84,3 +84,39 @@
 
 
 /* ———————————————————————————— IMAGES END ———————————————————————————— */
+
+
+
+
+/* ———————————————————————————— ELEMENTS START ———————————————————————————— */
+
+
+/* ——————— 10th exercise ——————— */
+
+.ex-10-icon {
+    animation-name: spin;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes spin{
+    from{ transform:rotate(0); }
+    to{ transform:rotate(-360deg);}
+}
+
+
+/* ——————— 11th exercise ——————— */
+
+.ex-11-icon:hover {
+    animation-name: crazy-spin;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+}
+
+@keyframes crazy-spin{
+    0%{ transform:rotate(0); }
+    90%{ transform:rotate(270deg);}
+    100%{ transform:rotate(0); }
+}
+
