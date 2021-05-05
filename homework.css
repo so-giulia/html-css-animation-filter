@@ -1,44 +1,35 @@
-/* ——————— 1st exercise start ——————— */
+/* ———————————————————————————— SQUARES START ———————————————————————————— */
+
+
+/* ——————— 1st exercise ——————— */
 
 .ex-1-square{ transition: background-color 2s; }
 
 .ex-1-square:hover{ background-color: red; }
 
-/* ——————— 1st exercise end ——————— */
 
-
-
-/* ——————— 2nd exercise start ——————— */
+/* ——————— 2nd exercise ——————— */
 
 .ex-2-square{ transition: width 2s; }
 
 .ex-2-square:active{ width:100%; }
 
-/* ——————— 2nd exercise end ——————— */
 
-
-
-/* ——————— 3rd exercise start ——————— */
+/* ——————— 3rd exercise ——————— */
 
 .ex-3-square{ transition: border-radius 0.5s ease-in; }
 
 .ex-3-square:hover{ border-radius:50%; }
 
-/* ——————— 3rd exercise end ——————— */
 
-
-
-/* ——————— 4th exercise start ——————— */
+/* ——————— 4th exercise ——————— */
 
 .ex-4-square{ transition: opacity 1s; }
 
 .ex-4-square:hover{ opacity:0; }
 
-/* ——————— 4th exercise end ——————— */
 
-
-
-/* ——————— 5th exercise start ——————— */
+/* ——————— 5th exercise ——————— */
 
 .ex-5-square{ transition: transform 1s; }
 
@@ -52,4 +43,23 @@
     transform-origin: center;
 }
 
-/* ——————— 5th exercise end ——————— */
+
+/* ———————————————————————————— SQUARES END ———————————————————————————— */
+
+
+
+
+/* ———————————————————————————— IMAGES START ———————————————————————————— */
+
+
+/* ——————— 6th exercise ——————— */
+
+.ex-6-img:hover{ filter:grayscale(1); }
+
+
+/* ——————— 7th exercise ——————— */
+
+.ex-7-img{ transition:filter 1.5s; }
+
+.ex-7-img:hover{ filter:sepia(80%) contrast(100%); }
+
