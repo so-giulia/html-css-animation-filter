@@ -1,0 +1,27 @@
+/* ——————— 1st exercise start ——————— */
+
+.ex-1-square{ transition: background-color 2s; }
+
+.ex-1-square:hover{ background-color: red; }
+
+/* ——————— 1st exercise end ——————— */
+
+
+
+/* ——————— 2nd exercise start ——————— */
+
+.ex-2-square{ transition: width 2s; }
+
+.ex-2-square:active{ width:100%; }
+
+/* ——————— 2nd exercise end ——————— */
+
+
+
+/* ——————— 3rd exercise start ——————— */
+
+.ex-3-square{ transition: border-radius 0.5s ease-in; }
+
+.ex-3-square:hover{ border-radius:50%; }
+
+/* ——————— 3rd exercise end ——————— */
