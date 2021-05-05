@@ -63,3 +63,24 @@
 
 .ex-7-img:hover{ filter:sepia(80%) contrast(100%); }
 
+
+/* ——————— 8th exercise ——————— */
+
+.ex-8-img{ transition:all 1.5s; }
+
+.ex-8-img:hover{ filter:sepia(50%) grayscale(50%); border-radius:20px; }
+
+
+/* ——————— 9th exercise ——————— */
+
+.ex-9-img{ transition:all 1.5s; }
+
+.ex-9-img:hover{
+    filter:sepia(100%) grayscale(50%);
+    border-radius:30px;
+    transform:scale(1.5);
+    transform-origin:center;
+}
+
+
+/* ———————————————————————————— IMAGES END ———————————————————————————— */
